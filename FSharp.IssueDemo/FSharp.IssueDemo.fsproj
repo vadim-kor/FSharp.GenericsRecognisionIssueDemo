@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Entities.fs" />
+        <Compile Include="GremlinQueries.Issue.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="ExRam.Gremlinq.Core" Version="11.1.0" />
+    </ItemGroup>
+
+</Project>

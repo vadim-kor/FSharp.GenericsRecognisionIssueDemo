@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.IssueDemo", "FSharp.IssueDemo\FSharp.IssueDemo.fsproj", "{7D8614C4-D1DA-4CA4-949C-C9DCC697C134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.IssueAbsent", "CSharp.IssueAbsent\CSharp.IssueAbsent.csproj", "{C1906CC8-576B-4556-84B1-809752532EE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFiles", "SolutionFiles", "{17878378-8E84-43D8-9CDF-DB01112575F2}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D8614C4-D1DA-4CA4-949C-C9DCC697C134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D8614C4-D1DA-4CA4-949C-C9DCC697C134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D8614C4-D1DA-4CA4-949C-C9DCC697C134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D8614C4-D1DA-4CA4-949C-C9DCC697C134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1906CC8-576B-4556-84B1-809752532EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1906CC8-576B-4556-84B1-809752532EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1906CC8-576B-4556-84B1-809752532EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1906CC8-576B-4556-84B1-809752532EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
